@@ -14,8 +14,17 @@ h1 {
 }
 
 /* --- TASK 3: Style your Form and .form-group below --- */
+input:invalid {
+    border:2px solid red;
+    background-color: #fff0f0;
+}
 
-
+.form-group {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    
+}
 
 /* --- TASK 3: Add your :invalid visual validation below --- */
 
