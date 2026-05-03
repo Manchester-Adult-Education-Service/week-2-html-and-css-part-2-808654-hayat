@@ -1,7 +1,7 @@
 /* --- Starter Styles --- */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -52,4 +52,20 @@ input:focus {
     margin: auto;
     background-color: rgb(218, 247, 218);
     display: none;
+}
+
+label::after {
+    content: "*";
+    color: red;
+}
+
+#btn:hover {
+    background-color: rgb(249, 146, 146);
+    border-radius: 10px;
+    border:1px solid brown;
+}
+
+#btn:active {
+    background-color: rgb(159, 252, 221);
+    transform: scale(1);
 }
